@@ -4,9 +4,26 @@
     <meta charset="utf-8">
     <title>Log Test</title>
     <link rel="stylesheet" href="style/style.css">
+    <script src="scripts/jquery-1.9.1.js"></script>
     <script src="scripts/log_1.js"></script>
 </head>
 <body>
-Hello
+    <div id="input1">
+        <ul>
+            <li>The quick brown1 fox jumps5 over the lazy dog0</li>
+            <li>The quick brown2 fox jumps6 over the lazy dog9</li>
+            <li>The quick brown3 fox jumps7 over the lazy dog0</li>
+            <li>The quick brown4 fox jumps8 over the lazy dog1</li>
+        </ul>
+    </div>
+    <div id="filters">
+        <div id="filter1">
+            <input type="text" id="filter1_text" name="term.0" class="qualifier" value="quick">
+            <button type="button" id="apply_button" title="Remove this filter">Apply</button>
+        </div>
+    </div>
+    <div id="result1">
+        Result
+    </div>
 </body>
 </html>
